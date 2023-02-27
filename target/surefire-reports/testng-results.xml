@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="25037" started-at="2023-02-23T01:36:57Z" finished-at="2023-02-23T01:37:22Z">
+    <groups>
+    </groups>
+    <test name="C:/Users/Public/Rubaiya2023" duration-ms="25037" started-at="2023-02-23T01:36:57Z" finished-at="2023-02-23T01:37:22Z">
+      <class name="tests.LoginTest">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:tests.LoginTest@39c0f4a]" name="openApplication" is-config="true" duration-ms="5656" started-at="2023-02-23T01:36:57Z" finished-at="2023-02-23T01:37:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.LoginTest@39c0f4a]" name="login" duration-ms="2492" started-at="2023-02-23T01:37:02Z" data-provider="getLoginData" finished-at="2023-02-23T01:37:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jann@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jann]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Successful]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.LoginTest@39c0f4a]" name="closeBrowser" is-config="true" duration-ms="128" started-at="2023-02-23T01:37:05Z" finished-at="2023-02-23T01:37:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:tests.LoginTest@39c0f4a]" name="openApplication" is-config="true" duration-ms="4334" started-at="2023-02-23T01:37:05Z" finished-at="2023-02-23T01:37:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.LoginTest@39c0f4a]" name="login" duration-ms="12269" started-at="2023-02-23T01:37:09Z" data-provider="getLoginData" finished-at="2023-02-23T01:37:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dummy@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dummy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Failure]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.LoginTest@39c0f4a]" name="closeBrowser" is-config="true" duration-ms="141" started-at="2023-02-23T01:37:21Z" finished-at="2023-02-23T01:37:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.FourTest">
+        <test-method status="PASS" signature="fourTest()[pri:0, instance:tests.FourTest@57baeedf]" name="fourTest" duration-ms="0" started-at="2023-02-23T01:37:22Z" finished-at="2023-02-23T01:37:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fourTest -->
+      </class> <!-- tests.FourTest -->
+      <class name="tests.ThreeTest">
+        <test-method status="PASS" signature="threeTest()[pri:0, instance:tests.ThreeTest@42e26948]" name="threeTest" duration-ms="0" started-at="2023-02-23T01:37:22Z" finished-at="2023-02-23T01:37:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- threeTest -->
+      </class> <!-- tests.ThreeTest -->
+      <class name="tests.TwoTest">
+        <test-method status="PASS" signature="twoTest()[pri:0, instance:tests.TwoTest@1794d431]" name="twoTest" duration-ms="0" started-at="2023-02-23T01:37:22Z" finished-at="2023-02-23T01:37:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- twoTest -->
+      </class> <!-- tests.TwoTest -->
+    </test> <!-- C:/Users/Public/Rubaiya2023 -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
